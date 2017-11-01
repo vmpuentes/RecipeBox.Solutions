@@ -23,11 +23,15 @@ namespace MySQLCore.Tests
     public void GetRecipes_ReturnAllRecipeCuisines_CuisineList()
     {
       //Arrange
-      
+      Recipe testTask = new Recipe("Jumbalaya");
+      testRecipe.Save();
 
       //Act
-
+      recipeTask.AddCuisine(testCuisine1);
+      List<Cuisine> result = testRecipe.GetCuisine();
+      List<Cuisine> testRecipe = new List<Cuisine> {testCuisine1};
 
       //Assert
+      CollectionAssert.AreEqual(testList, result);
     }
   }
