@@ -1,0 +1,4 @@
+/Users/Guest/Desktop/RecipeBox.Solutions/RecipeBox/bin/Debug/netcoreapp1.1/RecipeBox.deps.json
+/Users/Guest/Desktop/RecipeBox.Solutions/RecipeBox/bin/Debug/netcoreapp1.1/RecipeBox.runtimeconfig.json
+/Users/Guest/Desktop/RecipeBox.Solutions/RecipeBox/bin/Debug/netcoreapp1.1/RecipeBox.runtimeconfig.dev.json
+/Users/Guest/Desktop/RecipeBox.Solutions/RecipeBox/obj/Debug/netcoreapp1.1/RecipeBox.AssemblyInfo.cs
