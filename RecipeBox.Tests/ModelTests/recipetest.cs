@@ -15,12 +15,13 @@ namespace MySQLCore.Tests
     }
     public void Dispose()
     {
-      Task.DeleteAll();
+      Recipe.DeleteAll();
       Category.DeleteAll();
+      Ingredient.DeleteAll();
     }
 
     [TestMethod]
-    public void GetRecipes_ReturnAllRecipeCuisines_CuisineList()
+    public void AreTheyEqual_ReturnTrueIfDescriptionsAreEqual_Recipe()
     {
       //Arrange
       Recipe testTask = new Recipe("Jumbalaya");
